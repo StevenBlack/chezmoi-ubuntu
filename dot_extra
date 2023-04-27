@@ -1,6 +1,7 @@
 # PATH like a bawss
 PATH=~/bin
 PATH=$PATH:/home/parallels/.cargo/bin
+PATH=$PATH:/home/parallels/dev/git-friendly
 PATH=$PATH:/usr/local/sbin
 PATH=$PATH:/usr/local/bin
 PATH=$PATH:/usr/sbin
