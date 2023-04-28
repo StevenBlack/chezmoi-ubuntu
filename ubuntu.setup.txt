@@ -1,0 +1,50 @@
+# Run this first time through only
+
+sudo apt update
+
+# install vscode manually from
+# from https://code.visualstudio.com/Download
+
+# install Dracula
+# see https://draculatheme.com/gnome-terminal
+sudo apt-get install dconf-cli
+mkdir temp
+cd temp
+git clone https://github.com/dracula/gnome-terminal
+cd gnome-terminal
+./install.sh
+
+# cleanup - get rid of these folders
+rm -rf Videos
+rm -rf Music
+rm -rf Pictures
+
+# install git
+sudo apt install git
+
+# install rust
+curl https://sh.rustup.rs -sSf | sh
+
+# install chezmoi
+sh -c "$(curl -fsLS chezmoi.io/get)"
+~/bin/chezmoi init
+
+# install ripgrep
+sudo apt-get install ripgrep
+
+# install git-friendly
+# add ~/dev/git-friendly to $PATH
+git clone git://github.com/git-friendly/git-friendly.git ~/dev/git-friendly
+
+# install git-extras
+sudo apt-get install git-extras
+
+# install PostgreSQL
+# see https://ubuntu.com/server/docs/databases-postgresql
+sudo apt install postgresql
+sudo apt install postgresql-client
+
+
+# install postman
+snap install postman
+
