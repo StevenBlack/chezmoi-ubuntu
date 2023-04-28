@@ -1,4 +1,4 @@
-# ubuntu-dotfiles
+# chezmoi-ubuntu
 
 This repository is two things:
 
