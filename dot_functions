@@ -185,3 +185,7 @@ function whois() {
 													# strip extra fluff
 	/usr/bin/whois -h whois.internic.net $domain | sed '/NOTICE:/q'
 }
+
+function t() {
+  tree -AdL ${1:-1}
+}
