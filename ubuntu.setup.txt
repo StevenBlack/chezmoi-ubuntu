@@ -45,7 +45,11 @@ sudo apt install postgresql
 sudo apt install postgresql-client
 
 # install tree
-sudo apt  install tree 
+sudo apt install tree 
+
+# install pkg-config
+apt install pkg-config
+
 
 # install postman
 snap install postman
